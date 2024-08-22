@@ -12,4 +12,7 @@
   .icon-wrapper{
     @apply flex items-center justify-center border-2 border-r-gray-500 w-[40px] h-[40px] rounded-full place-items-center;
   }
+  .feature-btn{
+    @apply bg-accent text-white px-4 py-2 rounded-full hover:bg-accentDark;
+  }
 }
